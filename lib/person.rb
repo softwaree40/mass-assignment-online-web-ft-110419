@@ -9,6 +9,6 @@ class Person
     @birthday = birthday
     @hair_color = hair_color
     @eye_color = eye_color
-    @
+    @height = height
   end
 end
