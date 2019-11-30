@@ -13,6 +13,7 @@ class Person
        @pant_width = pant_width
        @hair_color = hair_color
        @height = height
+       @weight = weight
        
    end
    
