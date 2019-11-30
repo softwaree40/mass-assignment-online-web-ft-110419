@@ -1,7 +1,7 @@
 require "pry"
 class Person
   #your code here
-    attr_accessor:name
+    attr_accessor:name,:birthday
     
     def initialize(attributes)
         #binding.pry
