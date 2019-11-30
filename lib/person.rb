@@ -5,8 +5,8 @@ class Person
     :wrist_size, :glove_size, :pant_length, :pant_width
     
    def initialize(:name, :birthday, :hair_color, :eye_color, :height, 
-    :weight, :handed, :complexion, :t_shirt_size, 
-    :wrist_size, :glove_size, :pant_length, :pant_width)
+        :weight, :handed, :complexion, :t_shirt_size, 
+        :wrist_size, :glove_size, :pant_length, :pant_width)
     @name = name
     @birthday = birthday
     @hair_color = hair_color
