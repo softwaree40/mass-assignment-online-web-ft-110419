@@ -5,7 +5,7 @@ class Person
     
     def initialize(attributes)
         #binding.pry
-        @name = name
+        attributes.each {|key, value| self.send(("#{key}="), value)}
        
    end
    
