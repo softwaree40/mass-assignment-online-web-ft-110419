@@ -14,6 +14,7 @@ class Person
        @hair_color = hair_color
        @height = height
        @weight = weight
+       @handed = handed
        
    end
    
