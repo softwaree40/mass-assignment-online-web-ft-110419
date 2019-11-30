@@ -1,6 +1,6 @@
 class Person
   #your code here
-    attr_accessor:birthday,:eye_color,:complexion,:t_shirt_size,:wrist_size,:glove_size,:pant_length,:pant_width
+    attr_accessor:birthday,
     
     def initialize(birthday:,eye_color:,complexion:,t_shirt_size:,wrist_size:,glove_size:,pant_length:,pant_width:)
        @birthday = birthday
